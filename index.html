@@ -3,7 +3,718 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-menu">
+          <div>
+            <p class="header-name">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="header-icon"
+              >
+                <path
+                  d="M3.505 2.365A41.369 41.369 0 0 1 9 2c1.863 0 3.697.124 5.495.365 1.247.167 2.18 1.108 2.435 2.268a4.45 4.45 0 0 0-.577-.069 43.141 43.141 0 0 0-4.706 0C9.229 4.696 7.5 6.727 7.5 8.998v2.24c0 1.413.67 2.735 1.76 3.562l-2.98 2.98A.75.75 0 0 1 5 17.25v-3.443c-.501-.048-1-.106-1.495-.172C2.033 13.438 1 12.162 1 10.72V5.28c0-1.441 1.033-2.717 2.505-2.914Z"
+                />
+                <path
+                  d="M14 6c-.762 0-1.52.02-2.271.062C10.157 6.148 9 7.472 9 8.998v2.24c0 1.519 1.147 2.839 2.71 2.935.214.013.428.024.642.034.2.009.385.09.518.224l2.35 2.35a.75.75 0 0 0 1.28-.531v-2.07c1.453-.195 2.5-1.463 2.5-2.915V8.998c0-1.526-1.157-2.85-2.729-2.936A41.645 41.645 0 0 0 14 6Z"
+                />
+              </svg>
+
+              SKS Funding
+            </p>
+          </div>
+          <div class="right-header-menu">
+            <button class="btn-need-help">
+              <a class="need-help" href="#">Need help</a>
+            </button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="notification-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"
+              />
+            </svg>
+            <div class="dot"></div>
+
+            <img class="header-profile" src="profile.jpg" alt="profile_image" />
+          </div>
+        </div>
+        <div class="header-content">
+          <h2 class="primary-heading">Hi, Emma good morning 👋</h2>
+          <ul class="header-list">
+            <li class="header-list-item">
+              <span class="list-name">Email - </span>emma@gmail.com
+            </li>
+            <li class="header-list-item">
+              <span class="list-name">Phone - </span>+91 9876543210
+            </li>
+            <li class="header-list-item">
+              <span class="list-name">Address - </span>Rajkot
+            </li>
+            <li class="header-list-item">
+              <span class="list-name">Plan - </span>$500
+            </li>
+            <li class="header-list-item">
+              <span class="list-name">Joined - </span>Mon 22nd Feb 2019
+            </li>
+          </ul>
+        </div>
+        <div class="profile-box">
+          <div class="profile">
+            <div class="progress-bar"></div>
+            <div>
+              <p class="profile-completion">Profile Completion</p>
+              <p class="profile-complete">Please complete profile</p>
+              <button class="btn-complete">Complete</button>
+            </div>
+          </div>
+        </div>
+        <img class="main-profile-image" src="profile.jpg" alt="profile image" />
+      </div>
+      <div class="hero">
+        <div class="about-section">
+          <div class="about-my-family">
+            <div class="about-main">
+              <p>About my Family</p>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="about-main-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+            </div>
+            <div class="about-list">
+              <ul class="list-item">
+                <li>
+                  <p class="list-item-text">covered persons</p>
+                  <div class="list-images">
+                    <img
+                      src="face1.jpg"
+                      alt="covered persons"
+                      class="list-img"
+                    />
+                    <img
+                      src="face2.jpg"
+                      alt="covered persons"
+                      class="list-img"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <p class="list-item-text">Beneficiary person</p>
+                  <div class="list-images">
+                    <img
+                      src="face3.jpg"
+                      alt="Beneficiary person"
+                      class="list-img"
+                    />
+                    <img
+                      src="face4.jpg"
+                      alt="Beneficiary person"
+                      class="list-img"
+                    />
+                    <img
+                      src="face5.jpg"
+                      alt="Beneficiary person"
+                      class="list-img"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <p class="list-item-text">Emergency persons</p>
+                  <div class="list-images">
+                    <img
+                      src="face6.jpg"
+                      alt="Emergency persons"
+                      class="list-img"
+                    />
+                    <img
+                      src="face7.jpg"
+                      alt="Emergency persons"
+                      class="list-img"
+                    />
+                    <img
+                      src="face8.jpg"
+                      alt="Emergency persons"
+                      class="list-img"
+                    />
+                    <img
+                      src="face9.jpg"
+                      alt="Emergency persons"
+                      class="list-img"
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-me">
+            <div class="about-main">
+              <p>About my</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="about-main-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+            </div>
+            <ul class="about-me-list">
+              <li class="about-me-items">
+                <p class="item-name">Email</p>
+                <p class="item-value">abc@gmail.com</p>
+              </li>
+              <li class="about-me-items">
+                <p class="item-name">Phone</p>
+                <p class="item-value">+91 9876543210</p>
+              </li>
+              <li class="about-me-items">
+                <p class="item-name">Address</p>
+                <p class="item-value">Junagadh</p>
+              </li>
+              <li class="about-me-items">
+                <p class="item-name">Plan</p>
+                <p class="item-value">$100</p>
+              </li>
+              <li class="about-me-items">
+                <p class="item-name">Joined</p>
+                <p class="item-value">Mon 22nd Feb 2019</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-main-section">
+          <div class="menu">
+            <ul class="menu-list">
+              <li class="menu-items">
+                <a class="menu-item first-item active" href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="menu-item-icon"
+                  >
+                    <path
+                      d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z"
+                    />
+                    <path
+                      d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z"
+                    />
+                  </svg>
+                  <p>Dashboard</p>
+                </a>
+              </li>
+              <li class="menu-items">
+                <a class="menu-item" href="#">New Claims</a>
+              </li>
+              <li class="menu-items">
+                <a class="menu-item" href="#">completed claims</a>
+              </li>
+              <li class="menu-items">
+                <a class="menu-item" href="#">past claims</a>
+              </li>
+              <li class="menu-items">
+                <a class="menu-item" href="#">members</a>
+              </li>
+              <li class="menu-items">
+                <a class="menu-item" href="#">my claims</a>
+              </li>
+              <!-- <li class="menu-items menu-items-btn">
+                <a class="menu-item menu-item-btn" href="#">
+                  
+                </a>
+              </li> -->
+            </ul>
+            <button class="claim-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="claim-btn-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                />
+              </svg>
+              CLAIM
+            </button>
+          </div>
+          <div class="claims">
+            <div class="claim-box">
+              <div class="claim">
+                <p class="number">23</p>
+                <hr />
+                <div class="claim-detail">
+                  <p class="claim-detail-text">New claims</p>
+                  <div class="claim-detail-images">
+                    <img src="face1.jpg" alt="person image" />
+                    <img src="face2.jpg" alt="person image" />
+                    <img src="face3.jpg" alt="person image" />
+                    <p class="member-number">+32</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="claim-box">
+              <div class="claim">
+                <p class="number">76</p>
+                <hr />
+                <div class="claim-detail">
+                  <p class="claim-detail-text">New Members</p>
+                  <div class="claim-detail-images">
+                    <img src="face4.jpg" alt="person image" />
+                    <img src="face5.jpg" alt="person image" />
+                    <img src="face6.jpg" alt="person image" />
+                    <p class="member-number">+32</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="claim-box">
+              <div class="claim">
+                <p class="number">102</p>
+                <hr />
+                <div class="claim-detail">
+                  <p class="claim-detail-text">Total claims</p>
+                  <div class="claim-detail-images">
+                    <img src="face7.jpg" alt="person image" />
+                    <img src="face8.jpg" alt="person image" />
+                    <img src="face9.jpg" alt="person image" />
+                    <p class="member-number">+32</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-members">
+            <div class="members">
+              <div class="member">
+                <img
+                  class="member-image"
+                  src="face1.jpg"
+                  alt="Amelia kimani image"
+                />
+                <div class="member-details">
+                  <p class="member-name">Amelia kimani</p>
+                  <div class="member-filed member-detail">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="filed-icon icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
+                      />
+                    </svg>
+                    <p class="member-para">
+                      <span class="filed attribute">Filed - </span>Thu, Jul 10,
+                      2018 7:30 PM EOT
+                    </p>
+                  </div>
+                  <div class="member-due member-detail">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="due-icon icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                      />
+                    </svg>
+                    <p class="member-para">
+                      <span class="due attribute">Due - </span>Wed, Jul 23, 2019
+                      12:30 PM
+                    </p>
+                  </div>
+                  <div class="member-address member-detail">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="address-icon icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                      />
+                    </svg>
+                    <p class="member-para">
+                      <span class="address attribute">Address - </span>150 ring
+                      road, Rajkot.
+                    </p>
+                  </div>
+                </div>
+                <button class="pay-btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="pay-icon icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                    />
+                  </svg>
+                  Pay
+                </button>
+              </div>
+              <div class="member">
+                <img
+                  class="member-image"
+                  src="face2.jpg"
+                  alt="Genevieve Juma image"
+                />
+                <div class="member-details">
+                  <p class="member-name">Genevieve Juma</p>
+                  <div class="member-filed member-detail">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="filed-icon icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
+                      />
+                    </svg>
+                    <p class="member-para">
+                      <span class="filed attribute">Filed - </span>Thu, Jul 10,
+                      2018 7:30 PM EOT
+                    </p>
+                  </div>
+                  <div class="member-due member-detail">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="due-icon icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                      />
+                    </svg>
+                    <p class="member-para">
+                      <span class="due attribute">Due - </span>Wed, Jul 23, 2019
+                      12:30 PM
+                    </p>
+                  </div>
+                  <div class="member-address member-detail">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="address-icon icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                      />
+                    </svg>
+                    <p class="member-para">
+                      <span class="address attribute">Address - </span>150 ring
+                      road, Rajkot.
+                    </p>
+                  </div>
+                </div>
+                <button class="pay-btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="pay-icon icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                    />
+                  </svg>
+                  Pay
+                </button>
+              </div>
+              <div class="member">
+                <img
+                  class="member-image"
+                  src="face3.jpg"
+                  alt="Theodore wachira image"
+                />
+                <div class="member-details">
+                  <p class="member-name">Theodore wachira</p>
+                  <div class="member-filed member-detail">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="filed-icon icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"
+                      />
+                    </svg>
+                    <p class="member-para">
+                      <span class="filed attribute">Filed - </span>Thu, Jul 10,
+                      2018 7:30 PM EOT
+                    </p>
+                  </div>
+                  <div class="member-due member-detail">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="due-icon icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
+                      />
+                    </svg>
+                    <p class="member-para">
+                      <span class="due attribute">Due - </span>Wed, Jul 23, 2019
+                      12:30 PM
+                    </p>
+                  </div>
+                  <div class="member-address member-detail">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="address-icon icon"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                      />
+                    </svg>
+                    <p class="member-para">
+                      <span class="address attribute">Address - </span>150 ring
+                      road, Rajkot.
+                    </p>
+                  </div>
+
+                  <!-- <div class="btn"></div> -->
+                </div>
+                <button class="pay-btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="pay-icon icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                    />
+                  </svg>
+                  Pay
+                </button>
+              </div>
+            </div>
+            <div class="hero-activity">
+              <p class="activity-name">Activity</p>
+              <div class="activity-list">
+                <div class="activity">
+                  <div class="color-dot1"></div>
+                  <div class="activity-content">
+                    <p class="activity-header">Claimed $2000</p>
+                    <p class="activity-msg">
+                      23 members are got clamed in washington DC
+                    </p>
+                    <p class="activity-time">05:40pm</p>
+                  </div>
+                </div>
+                <div class="activity">
+                  <div class="color-dot2"></div>
+                  <div class="activity-content">
+                    <p class="activity-header">Claimed $500</p>
+                    <p class="activity-msg">
+                      23 members are got clamed in washington DC
+                    </p>
+                    <p class="activity-time">04:40pm</p>
+                  </div>
+                </div>
+                <div class="activity">
+                  <div class="color-dot3"></div>
+                  <div class="activity-content">
+                    <p class="activity-header">Claimed $800</p>
+                    <p class="activity-msg">
+                      42 members are got clamed in washington DC
+                    </p>
+                    <p class="activity-time">04:00pm</p>
+                  </div>
+                </div>
+                <div class="activity">
+                  <div class="color-dot4"></div>
+                  <div class="activity-content">
+                    <p class="activity-header">Claimed $2500</p>
+                    <p class="activity-msg">
+                      21 members are got clamed in washington DC
+                    </p>
+                    <p class="activity-time">03:30pm</p>
+                  </div>
+                </div>
+
+                <div class="activity">
+                  <div class="color-dot1"></div>
+                  <div class="activity-content">
+                    <p class="activity-header">Claimed $2000</p>
+                    <p class="activity-msg">
+                      23 members are got clamed in washington DC
+                    </p>
+                    <p class="activity-time">05:40pm</p>
+                  </div>
+                </div>
+                <div class="activity">
+                  <div class="color-dot2"></div>
+                  <div class="activity-content">
+                    <p class="activity-header">Claimed $2000</p>
+                    <p class="activity-msg">
+                      23 members are got clamed in washington DC
+                    </p>
+                    <p class="activity-time">05:40pm</p>
+                  </div>
+                </div>
+                <div class="activity">
+                  <div class="color-dot3"></div>
+                  <div class="activity-content">
+                    <p class="activity-header">Claimed $2000</p>
+                    <p class="activity-msg">
+                      23 members are got clamed in washington DC
+                    </p>
+                    <p class="activity-time">05:40pm</p>
+                  </div>
+                </div>
+                <div class="activity">
+                  <div class="color-dot4"></div>
+                  <div class="activity-content">
+                    <p class="activity-header">Claimed $2000</p>
+                    <p class="activity-msg">
+                      23 members are got clamed in washington DC
+                    </p>
+                    <p class="activity-time">05:40pm</p>
+                  </div>
+                </div>
+                <div class="activity">
+                  <div class="color-dot1"></div>
+                  <div class="activity-content">
+                    <p class="activity-header">Claimed $2000</p>
+                    <p class="activity-msg">
+                      23 members are got clamed in washington DC
+                    </p>
+                    <p class="activity-time">05:40pm</p>
+                  </div>
+                </div>
+                <div class="activity">
+                  <div class="color-dot2"></div>
+                  <div class="activity-content">
+                    <p class="activity-header">Claimed $2000</p>
+                    <p class="activity-msg">
+                      23 members are got clamed in washington DC
+                    </p>
+                    <p class="activity-time">05:40pm</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
